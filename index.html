@@ -34,7 +34,7 @@
                 <p class="artigo-autor">Por: Arthur Rodrigues</p>
                 <p>Focando na palavra roteiro, ele mesmo nos diz qual é o motivo de sua existência em uma produção cinematográfica. Ele serve como um guia, durante a execução de uma produção. Todas as informações necessárias para que o filme possa ser feito provêm desse roteiro ou guia, mais facilmente compreendidopor seu nome em português lusitano, guião.
                 </p>
-                <p class="artigo-fonte">Google Lens</p>
+                <p class="artigo-fonte">Fonte: Google Lens</p>
                 <button class="btn-like">👍 <span class="count">0</span></button>
                 <button class="btn-dislike">👎 <span class="count">0</span></button>
             </div>
@@ -47,7 +47,7 @@
                 <p class="artigo-autor">Por: Arthur Rodrigues</p>
                 <p>A direção no cinema é a função central responsável por transformar o roteiro escrito em uma obra audiovisual coesa, orientando tanto a atuação do elenco quanto o trabalho da equipe técnica.
                 </p>
-                <p class="artigo-fonte">Google Lens</p>
+                <p class="artigo-fonte">Fonte: Google Lens</p>
                 <button class="btn-like">👍 <span class="count">0</span></button>
                 <button class="btn-dislike">👎 <span class="count">0</span></button>
             </div>
@@ -60,7 +60,7 @@
                 <p class="artigo-autor">Por: Arthur Rodrigues</p>
                 <p>A produção no cinema é o processo completo de planejamento, financiamento, organizaçãoe execução que viabiliza a criação de uma obra audiovisual, desde a ideia inicial até a distribuição ao público.
                 </p>
-                <p class="artigo-fonte">Gemini</p>
+                <p class="artigo-fonte">Fonte: Gemini</p>
                 <button class="btn-like">👍 <span class="count">0</span></button>
                 <button class="btn-dislike">👎 <span class="count">0</span></button>
             </div>
@@ -73,7 +73,7 @@
                 <p class="artigo-autor">Por: Arthur Rodrigues</p>
                 <p>O elenco do cinema é o grupo de atores que interpreta os personagens de um filme. Esse processo é liderado pelo diretor de elenco, que seleciona os atores em testes, e pelo preparador de elenco, que os ajuda a construir os personagens. Para consultar a lista de atores de um filme específico, você pode usar plataformas como o AdoroCinema.
                 </p>
-                <p class="artigo-fonte">Gemini</p>
+                <p class="artigo-fonte">Fonte: Gemini</p>
                 <button class="btn-like">👍 <span class="count">0</span></button>
                 <button class="btn-dislike">👎 <span class="count">0</span></button>
             </div>
@@ -86,7 +86,7 @@
                 <p class="artigo-autor">Por: Arthur Rodrigues</p>
                 <p>O Departamento de Arte e Figurino cria a identidade visual do filme. O Diretor de Arte e sua equipe projetam e decoram os cenários, enquanto o figurinista desenvolve as roupas. Por fim, maquiadores e cabeleireiros cuidam da caracterização do elenco. Juntos, eles transformam o roteiro na estética que vemos na tela.
                 </p>
-                <p class="artigo-fonte">Gemini</p>
+                <p class="artigo-fonte">Fonte: Gemini</p>
                 <button class="btn-like">👍 <span class="count">0</span></button>
                 <button class="btn-dislike">👎 <span class="count">0</span></button>
             </div>
@@ -99,7 +99,7 @@
                 <p class="artigo-autor">Por: Arthur Rodrigues</p>
                 <p>O cinema é a arte de contar histórias por meio de imagens em movimento, unindo atuação, fotografia, som e roteiro. Criado em 1895, evoluiu do mudo ao sonoro, do colorido ao digital e do cinema às telas de streaming. Sua produção passa por pré-produção, filmagem e pós-produção, dividindo-se em gêneros como ação, drama, comédia, terror e ficção científica para emocionar e entreter o público.
                 </p>
-                <p class=artigo-fonte>Google Lens</p>
+                <p class=artigo-fonte>Fonte: Google Lens</p>
                 <button class="btn-like">👍 <span class="count">0</span></button>
                 <button class="btn-dislike">👎 <span class="count">0</span></button>
             </div>
@@ -118,27 +118,7 @@
             </div>
         </article>
 
-               document.addEventListener("DOMContentLoaded", () => {
-  // Seleciona todos os botões de like e dislike
-  const likeButtons = document.querySelectorAll(".btn-like");
-  const dislikeButtons = document.querySelectorAll(".btn-dislike");
-
-  // Função para adicionar clique em uma lista de botões
-  const setupButtons = (buttons) => {
-    buttons.forEach((button) => {
-      button.addEventListener("click", () => {
-        const countSpan = button.querySelector(".count");
-        let currentCount = parseInt(countSpan.textContent, 10);
-        countSpan.textContent = currentCount + 1;
-      });
-    });
-  };
-
-  // Aplica a lógica nos botões de Like e Dislike
-  setupButtons(likeButtons);
-  setupButtons(dislikeButtons);
-});
-
+        
     </main>
 
     <script src="script.js"></script>
